@@ -2,9 +2,18 @@ package main
 
 import "fmt"
 
-// wright code here
+// write programe codes here...
+
+// Day=01 --lesson of run first golang code..
+func first_go() {
+
+	fmt.Println("hello world")
+}
 
 // main function
 func main() {
-	fmt.Println("hello world")
+	// This is main function note::'all the programe will be able to exiqute in this main function.'
+
+	// to run day=01 programe
+	first_go()
 }
