@@ -14,7 +14,7 @@ func first_go() {
 //pointer examples
 func pointer(){
 var num *int
-var num1 int = 5
+var num1 int = 30
     num = &num1
 
 fmt.Println(" first declear pointer variable is :",num ,"\n","num1 variable :", num1 ,"\n","num1 variable memory number is : " , num,"\n","After de-raffarance num value is : ",*num)
